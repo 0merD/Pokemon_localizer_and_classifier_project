@@ -1,0 +1,13 @@
+train: /home/omerd/dlfinalprojmerged/train/images
+val: /home/omerd/dlfinalprojmerged/valid/images
+test: /home/omerd/dlfinalprojmerged/test/images
+
+nc: 1
+names: ['Pokemon']
+
+roboflow:
+  workspace: dlcoursefinalproject
+  project: pokedetector
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dlcoursefinalproject/pokedetector/dataset/2
